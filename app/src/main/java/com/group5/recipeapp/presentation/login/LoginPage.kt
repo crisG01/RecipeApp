@@ -315,7 +315,7 @@ fun LoginPage(
                             top.linkTo(surface.top, margin = (-36).dp)
                             end.linkTo(surface.end, margin = 36.dp)
                         },
-                    containerColor = Black,
+                    containerColor = Blue,
                     shape = CircleShape
                 ) {
                     Icon(

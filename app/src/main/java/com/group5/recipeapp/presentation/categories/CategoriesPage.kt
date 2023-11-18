@@ -32,6 +32,7 @@ import com.group5.recipeapp.presentation.components.RoundedButton
 import com.group5.recipeapp.ui.theme.Black
 import com.group5.recipeapp.ui.theme.Blue
 import com.group5.recipeapp.ui.theme.LightBlue
+import com.group5.recipeapp.ui.theme.LightGray
 import com.group5.recipeapp.ui.theme.Red
 import com.group5.recipeapp.ui.theme.Typography
 import com.group5.recipeapp.ui.theme.White
@@ -76,7 +77,7 @@ fun CategoriesPages(
             )
             Spacer(modifier = Modifier.size(20.dp))
             RoundedButton(
-                bgColor = Black,
+                bgColor = Color.Magenta,
                 text = FoodCategoriesEnum.Dinner.displayableText,
                 displayProgressBar = false,
                 onClick = {
@@ -85,7 +86,7 @@ fun CategoriesPages(
             )
             Spacer(modifier = Modifier.size(20.dp))
             RoundedButton(
-                bgColor = LightBlue,
+                bgColor = LightGray,
                 text = FoodCategoriesEnum.Dessert.displayableText,
                 displayProgressBar = false,
                 onClick = {

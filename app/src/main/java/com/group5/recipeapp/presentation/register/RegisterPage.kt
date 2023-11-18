@@ -210,7 +210,7 @@ fun RegisterPage(
 
                                     withStyle(
                                         style = SpanStyle(
-                                            color = Blue,
+                                            color = Red,
                                             fontWeight = FontWeight.Bold
                                         )
                                     ) {
@@ -231,7 +231,7 @@ fun RegisterPage(
                             top.linkTo(surface.top, margin = (-36).dp)
                             end.linkTo(surface.end, margin = 36.dp)
                         },
-                    containerColor = Black,
+                    containerColor = Red,
                     shape = CircleShape
                 ) {
                     Icon(
