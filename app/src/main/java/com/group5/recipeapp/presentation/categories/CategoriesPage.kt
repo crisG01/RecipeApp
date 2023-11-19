@@ -42,7 +42,11 @@ fun CategoriesPages(
     viewModel: CategoriesViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 ) {
 
+
     //components of box
+
+    // Main container for the categories page
+
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -53,6 +57,7 @@ fun CategoriesPages(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            // Title for selecting a food category
             Text(
                 text = "Select a food category",
                 style = Typography.titleLarge,
@@ -95,6 +100,8 @@ fun CategoriesPages(
                 }
             )
             Spacer(modifier = Modifier.size(100.dp))
+
+            // Button for navigating to the user's profile
             ProfileAvatarWithButton(navController)
         }
     }
@@ -126,6 +133,7 @@ fun ProfileAvatarWithButton(navController: NavController) {
 }
 
 
+// Function to navigate to the recipe list based on the selected food category
 fun navigateByFoodCategory(navController: NavHostController, foodCategory: FoodCategoriesEnum) {
     val foodCategoryParam = foodCategory.value
     navController.navigate("recipe-list/$foodCategoryParam")
