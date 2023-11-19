@@ -211,7 +211,7 @@ fun RegisterPage(
 
                                     withStyle(
                                         style = SpanStyle(
-                                            color = Blue,
+                                            color = Red,
                                             fontWeight = FontWeight.Bold
                                         )
                                     ) {

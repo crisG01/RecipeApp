@@ -32,6 +32,7 @@ import com.group5.recipeapp.presentation.components.RoundedButton
 import com.group5.recipeapp.ui.theme.Black
 import com.group5.recipeapp.ui.theme.Blue
 import com.group5.recipeapp.ui.theme.LightBlue
+import com.group5.recipeapp.ui.theme.LightGray
 import com.group5.recipeapp.ui.theme.Red
 import com.group5.recipeapp.ui.theme.Typography
 import com.group5.recipeapp.ui.theme.White
