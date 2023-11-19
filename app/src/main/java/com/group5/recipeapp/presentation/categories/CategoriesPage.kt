@@ -41,6 +41,8 @@ fun CategoriesPages(
     navController: NavHostController,
     viewModel: CategoriesViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 ) {
+
+    //components of box
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -76,7 +78,7 @@ fun CategoriesPages(
             )
             Spacer(modifier = Modifier.size(20.dp))
             RoundedButton(
-                bgColor = Black,
+                bgColor = Color.Magenta,
                 text = FoodCategoriesEnum.Dinner.displayableText,
                 displayProgressBar = false,
                 onClick = {
@@ -85,7 +87,7 @@ fun CategoriesPages(
             )
             Spacer(modifier = Modifier.size(20.dp))
             RoundedButton(
-                bgColor = LightBlue,
+                bgColor = Color.LightGray,
                 text = FoodCategoriesEnum.Dessert.displayableText,
                 displayProgressBar = false,
                 onClick = {

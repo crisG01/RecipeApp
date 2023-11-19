@@ -309,13 +309,14 @@ fun LoginPage(
                     onClick = {
                         login()
                     },
+                    //Circle
                     modifier = Modifier
                         .size(75.dp)
                         .constrainAs(fab) {
                             top.linkTo(surface.top, margin = (-36).dp)
                             end.linkTo(surface.end, margin = 36.dp)
                         },
-                    containerColor = Black,
+                    containerColor = Blue,
                     shape = CircleShape
                 ) {
                     Icon(
